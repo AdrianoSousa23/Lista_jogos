@@ -41,7 +41,6 @@ public class Jogos {
         return " \n" +
                 " Nome do jogo: " + getNomeJogo() + " \n" +
                 " Ano de lançamento do jogo: " + getAnoJogo() + " \n" +
-                " duracao em horas do jogo: " + getDuracaoJogo() + " horas \n" +
-                ".";
+                " duracao em horas do jogo: " + getDuracaoJogo() + " horas \n";
     }
 }

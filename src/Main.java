@@ -5,13 +5,7 @@ public class Main {
     public static void main(String[] args) throws Exception {
 
         JOptionPane.showMessageDialog(null, "Seja bem vindo, Crie sua lista com seus games favoritos :) ! ");
-//        int escolha = Integer.parseInt(JOptionPane.showInputDialog("Digite qual opção vc deseja: " + "/n"
-//                + "1. Adicionar um jogo a sua lista./n" +
-//                "2. Buscar um jogo pela posição na lista./n" +
-//                "3. Buscar um jogo pelo seu nome./n" +
-//                "4. Remover um jogo da lista./n" +
-//                "5. Exibir a lista completa./n" +
-//                "0. para sair."));
+
         VetorObjeto vetor = new VetorObjeto(10);
         int resp = 0;
         do {
